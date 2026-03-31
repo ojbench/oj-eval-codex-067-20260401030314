@@ -1,5 +1,7 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <optional>
+#include <stdexcept>
+#include <utility>
 
 class RefCellError : public std::runtime_error {
 public:
@@ -133,10 +135,9 @@ public:
 // No standalone I/O behavior required; the class is tested by OJ harness.
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
-    // The OJ likely doesn't need I/O; we implement nothing and exit 0.
-    // Provide minimal sanity self-test when input present: we ignore input.
+    // No I/O required for this problem.
     return 0;
 }
